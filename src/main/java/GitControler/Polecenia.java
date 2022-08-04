@@ -25,6 +25,17 @@ public class Polecenia {
             System.out.println(linia);
         }
     }
+    public String listBranch() throws Exception {
+        Process proc = Runtime.getRuntime().exec("git branch -a");
+        BufferedReader branch = new BufferedReader(new InputStreamReader(proc.getInputStream()));
+        String linia;
+        String returning="";
+        while ((linia= branch.readLine())!=null){
+            returning+=linia+"|";
+        }
+        return returning;
+    }
+
     public void changeBranch(String branch) throws IOException {
         Process proc = Runtime.getRuntime().exec("git switch "+branch);
         BufferedReader reader = new BufferedReader(new InputStreamReader(proc.getInputStream()));
@@ -33,9 +44,15 @@ public class Polecenia {
             System.out.println(linia);
         }
     }
-    public void checkoutBranch(String branch, String commit) throws IOException {
+    public String actual_branch() throws Exception {
+        String Branches=listBranch();
+        return "";
+    }
+    public void checkoutBranch(String branch, String commit_message) throws IOException {
         Process procAdd = Runtime.getRuntime().exec("git add . ");
-        Process procCommit = Runtime.getRuntime().exec("git add . ");
+        Process procCommit = Runtime.getRuntime().exec("git commit -m "+ commit_message );
+
+        Process procSend = Runtime.getRuntime().exec("git push "+ actual_branch() + " "+ actual_branch() );
         Process proc = Runtime.getRuntime().exec("git checkout "+branch);
         BufferedReader reader = new BufferedReader(new InputStreamReader(proc.getInputStream()));
         String linia = "";
