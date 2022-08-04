@@ -51,15 +51,9 @@ public class Polecenia {
     }
     public void checkoutBranch(String branch, String commit_message) throws Exception {
         String linia = "+";
-        Process procAdd = Runtime.getRuntime().exec("git add . && git commit -m "+ commit_message);
+        Process procAdd = Runtime.getRuntime().exec("git add . && git commit -m "+ commit_message+ " && git push main "+ actual_branch());
         BufferedReader reader5 = new BufferedReader(new InputStreamReader(procAdd.getInputStream()));
         while ((linia= reader5.readLine())!=null){
-            System.out.println(linia);
-        }
-        System.out.println("git commit -m "+ commit_message);
-        Process procCommit = Runtime.getRuntime().exec("git commit -m "+ commit_message );
-        BufferedReader reader2 = new BufferedReader(new InputStreamReader(procCommit.getInputStream()));
-        while ((linia= reader2.readLine())!=null){
             System.out.println(linia);
         }
         String wyslij = "git push main "+ actual_branch();
