@@ -12,7 +12,7 @@ public class GitControl {
         System.out.println("Sprawdzanie GIT-a");
         Polecenia git = new Polecenia();
         System.out.println(git.wersja());
-        git.listsBranch();
-        git.checkoutBranch("master", "Poprawiono wysyłanie");
+        //git.listsBranch();
+        git.checkoutBranch("master", " 'Poprawiono może wysyłanie' ");
     }
 }
