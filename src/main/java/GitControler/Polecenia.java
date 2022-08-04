@@ -56,6 +56,7 @@ public class Polecenia {
         while ((linia= reader5.readLine())!=null){
             System.out.println(linia);
         }
+        System.out.println("git commit -m "+ commit_message);
         Process procCommit = Runtime.getRuntime().exec("git commit -m "+ commit_message );
         BufferedReader reader2 = new BufferedReader(new InputStreamReader(procCommit.getInputStream()));
         while ((linia= reader2.readLine())!=null){
