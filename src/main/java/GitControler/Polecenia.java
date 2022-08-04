@@ -50,7 +50,7 @@ public class Polecenia {
         return reader.readLine();
     }
     public void checkoutBranch(String branch, String commit_message) throws Exception {
-        String linia = "";
+        String linia = "+";
         Process procAdd = Runtime.getRuntime().exec("git add . ");
         BufferedReader reader5 = new BufferedReader(new InputStreamReader(procAdd.getInputStream()));
         while ((linia= reader5.readLine())!=null){
