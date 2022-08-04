@@ -13,6 +13,6 @@ public class GitControl {
         Polecenia git = new Polecenia();
         System.out.println(git.wersja());
         git.listsBranch();
-        git.checkoutBranch("mama", "Poprawiono commit");
+        git.checkoutBranch("master", "Poprawiono wysyłanie");
     }
 }
