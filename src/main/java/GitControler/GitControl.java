@@ -13,5 +13,7 @@ public class GitControl {
         Polecenia git = new Polecenia();
         System.out.println(git.wersja());
         git.listsBranch();
+        git.changeBranch("mama");
+        git.changeBranch("master");
     }
 }
