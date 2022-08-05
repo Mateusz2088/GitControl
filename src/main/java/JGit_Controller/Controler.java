@@ -7,8 +7,8 @@ import java.io.IOException;
 public class Controler {
     public static void main(String[] args) throws IOException, GitAPIException {
         Command gitM = new Command();
-        //gitM.example("/home/mati/Dokumenty/praktykaTT/GITtest");
-        gitM.makeCommit("/home/mati/Dokumenty/praktykaTT/GITtest");
-
+        gitM.setDirectory("/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283");
+        gitM.makeCommit();
+        ///gitM.example();
     }
 }

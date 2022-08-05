@@ -18,21 +18,20 @@ import java.io.PrintWriter;
 import java.nio.file.Files;
 
 public class Command {
-    public void makeCommit(String directory) throws IOException, GitAPIException {
-        File localPath = File.createTempFile("JGitTestREposistory","", new File(directory));
-        Files.delete(localPath.toPath());
+    String directory;
 
-        Git git = Git.init().setDirectory(localPath).call();
-        System.out.println("Tworzenie repozytorium: "+ git.getRepository().getDirectory());
-        File myFile = new File(git.getRepository().getDirectory().getParent(),"testfile");
-        if(!myFile.createNewFile()){
-            throw new IOException("Nie mogę stworzyć pliku " + myFile);
-        }
+    public void setDirectory(String directory) {
+        this.directory = directory;
+    }
+
+    public void makeCommit() throws IOException, GitAPIException {
+        Git git = Git.open(new File(directory+"/.git"));
+        Repository repository = git.getRepository();
         git.add().addFilepattern(" . ").call();
         git.commit().setMessage("Initial commit").call();
-        System.out.println("Committed file " + myFile + " to repository at " + git.getRepository().getDirectory());
+        System.out.println("Committed files to repository at " + git.getRepository().getDirectory());
     }
-    public void example(String directory) throws IOException {
+    public void example() throws IOException {
         FileRepositoryBuilder repositoryBuilder = new FileRepositoryBuilder();
         Repository repository = repositoryBuilder.setGitDir(new File(directory+"/.git")).readEnvironment().findGitDir().setMustExist(true).build();
 
