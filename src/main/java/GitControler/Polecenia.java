@@ -1,12 +1,20 @@
 package GitControler;
 
+import java.io.*;
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class Polecenia {
+    private String directory = "~/";
+
+    public String getDirectory() {
+        return directory;
+    }
+
+    public void setDirectory(String directory) {
+        this.directory = directory;
+    }
+
     public String wersja() throws Exception {
         Process proc = Runtime.getRuntime().exec("git --version");
         BufferedReader version = new BufferedReader(new InputStreamReader(proc.getInputStream()));
@@ -35,7 +43,20 @@ public class Polecenia {
         }
         return returning;
     }
+    public void init() throws IOException {
+        Process process = new ProcessBuilder(new String[]{"git init"}).directory(new File(directory)).start();
+        process.destroy();
+    }
+    public void testDirectory() throws IOException {
+        final File file = new File(directory);
+        System.out.println(file.isDirectory());
+        System.out.println(file.canRead());
+        System.out.println(file.canWrite());
 
+        final ProcessBuilder procBuilder = new ProcessBuilder("cd "+directory, "echo \"dd\"");
+
+        final Process proc = procBuilder.start();
+    }
     public void changeBranch(String branch) throws IOException {
         Process proc = Runtime.getRuntime().exec("git switch "+branch);
         BufferedReader reader = new BufferedReader(new InputStreamReader(proc.getInputStream()));
@@ -43,11 +64,17 @@ public class Polecenia {
         while ((linia= reader.readLine())!=null){
             System.out.println(linia);
         }
+        proc.destroy();
     }
     public String actual_branch() throws Exception {
         Process procCommit = Runtime.getRuntime().exec("git rev-parse --abbrev-ref HEAD" );
         BufferedReader reader = new BufferedReader(new InputStreamReader(procCommit.getInputStream()));
         return reader.readLine();
+    }
+
+    public void combo() throws IOException {
+        Process process = new ProcessBuilder(new String[]{"cd "+directory ,"git add .", "git commit -m \"data1\"", "git pull"}).start();
+        process.destroy();
     }
     public void checkoutBranch(String branch, String commit_message) throws Exception {
         String linia = "+";
