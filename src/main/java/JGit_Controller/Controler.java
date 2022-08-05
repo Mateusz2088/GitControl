@@ -6,10 +6,9 @@ import java.io.IOException;
 
 public class Controler {
     public static void main(String[] args) throws IOException, GitAPIException {
-        Command git = new Command();
-        git.openRepo("/home/mati/Dokumenty/praktykaTT/GITtest");
-        git.createExampleBranch();
-        git.commitFiles("/home/mati/Dokumenty/praktykaTT/GITtest");
+        Command gitM = new Command();
+        //gitM.example("/home/mati/Dokumenty/praktykaTT/GITtest");
+        gitM.makeCommit("/home/mati/Dokumenty/praktykaTT/GITtest");
 
     }
 }
