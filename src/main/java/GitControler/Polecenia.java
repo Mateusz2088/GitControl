@@ -3,6 +3,7 @@ package GitControler;
 import java.io.*;
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.util.Properties;
 
 public class Polecenia {
     private String directory = "~/";
@@ -47,15 +48,40 @@ public class Polecenia {
         Process process = new ProcessBuilder(new String[]{"git init"}).directory(new File(directory)).start();
         process.destroy();
     }
-    public void testDirectory() throws IOException {
+    public static String getOsCmd(){
+        Properties props=System.getProperties(); // Get the system property set
+        String osName = props.getProperty("os.name"); // Operating system name
+        if(osName.toLowerCase().contains("linux")){
+            return "/bin/sh -c";
+        }else if(osName.toLowerCase().contains("windows")){
+            return "cmd /c";
+        }else{
+            throw new RuntimeException(" The server is not linux|windows Operating system ");
+        }
+    }
+
+    public void testDirectory() throws IOException, InterruptedException {
         final File file = new File(directory);
         System.out.println(file.isDirectory());
         System.out.println(file.canRead());
         System.out.println(file.canWrite());
+        Process proc = null;
+        String command = getOsCmd()+"cd "+directory+" && dir" ;
 
-        final ProcessBuilder procBuilder = new ProcessBuilder("cd "+directory, "echo \"dd\"");
+        proc = Runtime.getRuntime().exec(command);
+        // Read the output
 
-        final Process proc = procBuilder.start();
+        BufferedReader reader =
+                new BufferedReader(new InputStreamReader(proc.getInputStream()));
+
+        String line = "";
+        while((line = reader.readLine()) != null) {
+            System.out.print(line + "\n");
+        }
+
+        proc.waitFor();
+
+
     }
     public void changeBranch(String branch) throws IOException {
         Process proc = Runtime.getRuntime().exec("git switch "+branch);
