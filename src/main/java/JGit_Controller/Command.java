@@ -18,18 +18,45 @@ import java.io.PrintWriter;
 import java.nio.file.Files;
 
 public class Command {
-    String directory;
+    private String directory;
+    private String sshAddress;
 
     public void setDirectory(String directory) {
         this.directory = directory;
+    }
+
+    public void firstConfiguration() throws IOException {
+        FileRepositoryBuilder repositoryBuilder = new FileRepositoryBuilder();
+        Repository repository = repositoryBuilder.setGitDir(new File(directory+"/.git")).readEnvironment().findGitDir().setMustExist(true).build();
+        System.out.println("[Stworzono nowe repozytorium]");
+        Git git = new Git(repository);
+        StoredConfig config = git.getRepository().getConfig();
+        config.setString("remote","origin", "url", sshAddress);
+        config.save();
+        System.out.println("[ Dodano adres SSH ]");
     }
 
     public void makeCommit() throws IOException, GitAPIException {
         Git git = Git.open(new File(directory+"/.git"));
         Repository repository = git.getRepository();
         git.add().addFilepattern(" . ").call();
-        git.commit().setMessage("Initial commit").call();
+        git.commit().setMessage("Initial commit").setCommitter("Mateusz","mateuszspzoo@gmail.com").call();
         System.out.println("Committed files to repository at " + git.getRepository().getDirectory());
+    }
+    public void makeChange(String new_branch) throws GitAPIException, IOException {
+        makeCommit();
+        System.out.println("[ Wykonano commit ]");
+        Git git = Git.open(new File(directory+"/.git"));
+        System.out.println("[ Otwarto repozytorium ]");
+        Repository repository = git.getRepository();
+        PullCommand pullCommand = git.pull();
+        try{
+            pullCommand.call();
+            System.out.println("[ Wykonano pull ]");
+        }catch (GitAPIException e){
+            e.printStackTrace();
+        }
+        System.out.println("[ Koniec pull ]");
     }
     public void example() throws IOException {
         FileRepositoryBuilder repositoryBuilder = new FileRepositoryBuilder();
@@ -59,5 +86,13 @@ public class Command {
         loader.copyTo(System.out);
         revWalk.dispose();
 
+    }
+
+    public String getSshAddress() {
+        return sshAddress;
+    }
+
+    public void setSshAddress(String sshAddress) {
+        this.sshAddress = sshAddress;
     }
 }
