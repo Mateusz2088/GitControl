@@ -14,8 +14,7 @@ import org.eclipse.jgit.util.FileUtils;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.nio.file.Files;
+
 
 public class Command {
     private String directory;
@@ -49,14 +48,11 @@ public class Command {
         Git git = Git.open(new File(directory+"/.git"));
         System.out.println("[ Otwarto repozytorium ]");
         Repository repository = git.getRepository();
-        PullCommand pullCommand = git.pull();
-        try{
-            pullCommand.call();
-            System.out.println("[ Wykonano pull ]");
-        }catch (GitAPIException e){
-            e.printStackTrace();
-        }
+        git.checkout().setName(new_branch).call();
+        git.pull();
         System.out.println("[ Koniec pull ]");
+        Ref ref = git.checkout().setName(new_branch).setCreateBranch(true).setUpstreamMode(CreateBranchCommand.SetupUpstreamMode.TRACK).setStartPoint("main/"+new_branch).call();
+
     }
     public void example() throws IOException {
         FileRepositoryBuilder repositoryBuilder = new FileRepositoryBuilder();
@@ -87,6 +83,9 @@ public class Command {
         revWalk.dispose();
 
     }
+    /*
+     * Pull latest from 'source' and 'binary' repository.
+     */
 
     public String getSshAddress() {
         return sshAddress;
