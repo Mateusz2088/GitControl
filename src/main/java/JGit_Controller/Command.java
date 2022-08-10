@@ -48,6 +48,13 @@ public class Command {
         Git git = Git.open(new File(directory+"/.git"));
         System.out.println("[ Otwarto repozytorium ]");
         Repository repository = git.getRepository();
+        CreateBranchCommand bcc;
+        bcc = git.branchCreate();
+        bcc.setName(new_branch)
+                .setUpstreamMode(CreateBranchCommand.SetupUpstreamMode.SET_UPSTREAM)
+                .setStartPoint("main/" + new_branch)
+                .setForce(true)
+                .call();
         git.checkout().setName(new_branch).call();
         git.pull();
         System.out.println("[ Koniec pull ]");
