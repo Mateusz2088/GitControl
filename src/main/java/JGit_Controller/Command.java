@@ -12,8 +12,9 @@ import org.eclipse.jgit.treewalk.TreeWalk;
 import org.eclipse.jgit.treewalk.filter.PathFilter;
 import org.eclipse.jgit.util.FileUtils;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
+import java.util.Scanner;
+import java.util.Vector;
 
 
 public class Command {
@@ -61,6 +62,58 @@ public class Command {
         Ref ref = git.checkout().setName(new_branch).setCreateBranch(true).setUpstreamMode(CreateBranchCommand.SetupUpstreamMode.TRACK).setStartPoint("main/"+new_branch).call();
 
     }
+
+    public void makeversion(Boolean hotfix, Integer month, Integer year) throws GitAPIException, IOException {
+        makeCommit();
+        System.out.println("[ Wykonano commit ]");
+        Git git = Git.open(new File(directory+"/.git"));
+        if(hotfix==true){
+            System.out.println("[ hotfix==true ]");
+            File file = new File(directory+"/version.properties");
+            String line = new String();
+            Scanner sc = new Scanner(file);     //file to be scanne
+            Boolean znaleziono = false;
+            Vector<String> vector= new Vector<>();
+            System.out.println("[ Odczyt linii ]");
+            while (sc.hasNextLine() && znaleziono==false) {
+                line = sc.nextLine();
+                System.out.println(line);
+                if(line.indexOf("version=")!=-1){
+                    znaleziono=true;
+                    Integer version = Integer.valueOf(line.substring(line.lastIndexOf('.')+1));
+                    Integer old_year = Integer.valueOf(line.substring(line.indexOf('=')+1,line.indexOf(".")));
+                    Integer old_month = Integer.valueOf(line.substring(line.indexOf('.')+1,line.lastIndexOf('.')));
+
+                    System.out.println("Ostatnia wersja: "+old_year+"-"+old_month+"-"+version);
+                    System.out.println(old_year+"-"+year);
+                    if ((int)old_year!=(int)year){ // jeżeli różne lata to dodaj do wektora DD PRAWIDŁOWO, ALE
+                        System.out.println("[ Inny rok data ]");
+                        line="version="+year+"."+month+".0";
+                    }else{
+                    if(old_month!=month ){
+                        System.out.println("[ Inny miesiąc data ]");
+                        line="version="+year+"."+month+".0";
+                    }else{
+                        System.out.println("[ Stara data ]");
+                        line="version="+year+"."+month+"."+(++version);
+                    }}
+                }
+                vector.add(line);
+            }
+            if(znaleziono==false){
+                throw new IOException("Wskazano błędny plik. Brak parametru version");
+            }
+            sc.close();
+            FileWriter bw = new FileWriter(file);
+            System.out.println("[Zapis do pliku]");
+            for(int i=0; i< vector.size(); i++){
+                bw.write(vector.get(i));
+                System.out.println(vector.get(i));
+            }
+            bw.close();
+        }
+    }
+
     public void example() throws IOException {
         FileRepositoryBuilder repositoryBuilder = new FileRepositoryBuilder();
         Repository repository = repositoryBuilder.setGitDir(new File(directory+"/.git")).readEnvironment().findGitDir().setMustExist(true).build();
