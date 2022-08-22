@@ -7,8 +7,8 @@ import java.io.IOException;
 public class Controler {
     public static void main(String[] args) throws IOException, GitAPIException {
         Command gitM = new Command();
-        gitM.setSshAddress("git@github.com:Mateusz2088/Tests1.git");
-        gitM.setDirectory("/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283");
+        gitM.setSshAddress("git@github.com:Mateusz2088/SIMforZHP.git");
+        gitM.setDirectory("/home/mati/newSIMapp/SIMapp");
         gitM.makeversion(true,8,2022);
         ///gitM.example();
     }

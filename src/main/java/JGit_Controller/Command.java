@@ -66,7 +66,7 @@ public class Command {
     public void makeversion(Boolean hotfix, Integer month, Integer year) throws GitAPIException, IOException {
         makeCommit();
         System.out.println("[ Wykonano commit ]");
-        Git git = Git.open(new File(directory+"/.git"));
+
         if(hotfix==true){
             System.out.println("[ hotfix==true ]");
             File file = new File(directory+"/version.properties");
@@ -111,6 +111,38 @@ public class Command {
                 System.out.println(vector.get(i));
             }
             bw.close();
+            push();
+        }
+    }
+
+    public void push() throws IOException, GitAPIException {
+
+        FileRepositoryBuilder builder = new FileRepositoryBuilder();
+        Repository repository = builder.setGitDir(new File(directory+"/.git")).readEnvironment().findGitDir().build();
+        Git git = new Git(repository);
+        StoredConfig config = git.getRepository().getConfig();
+        config.setString("branch", "main", "merge", "refs/heads/main");
+        PullCommand pc = git.pull();
+        pc.call();
+
+
+        String[] commands = {"/bin/bash","-c","'cd "+directory,"; git push --force main main'"};
+        String command = "/bin/bash -c 'cd "+directory+"; git push bazadanych bazadanych'";
+
+        try {
+            Process process = Runtime.getRuntime().exec(command);
+
+            BufferedReader reader = new BufferedReader(
+                    new InputStreamReader(process.getInputStream()));
+            String line;
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
+            }
+
+            reader.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
