@@ -1,5 +1,7 @@
 package JGit_Controller;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.eclipse.jgit.api.*;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.lib.*;
@@ -20,7 +22,7 @@ import java.util.Vector;
 public class Command {
     private String directory;
     private String sshAddress;
-
+    private static final Logger logger = LogManager.getLogger(Command.class);
     public void setDirectory(String directory) {
         this.directory = directory;
     }
@@ -37,17 +39,17 @@ public class Command {
     }
 
     public void makeCommit() throws IOException, GitAPIException {
+        logger.info("Wykonywanie commita");
         Git git = Git.open(new File(directory+"/.git"));
-        Repository repository = git.getRepository();
         git.add().addFilepattern(" . ").call();
         git.commit().setMessage("Initial commit").setCommitter("Mateusz","mateuszspzoo@gmail.com").call();
-        System.out.println("Committed files to repository at " + git.getRepository().getDirectory());
+        logger.debug("Committed files to repository at " + git.getRepository().getDirectory());
     }
     public void makeChange(String new_branch) throws GitAPIException, IOException {
+        logger.info("WYkonywanie zmiany brancha");
         makeCommit();
-        System.out.println("[ Wykonano commit ]");
         Git git = Git.open(new File(directory+"/.git"));
-        System.out.println("[ Otwarto repozytorium ]");
+        logger.debug("Otwarto repozytorium");
         Repository repository = git.getRepository();
         CreateBranchCommand bcc;
         bcc = git.branchCreate();
@@ -64,17 +66,17 @@ public class Command {
     }
 
     public void makeversion(Boolean hotfix, Integer month, Integer year) throws GitAPIException, IOException {
+        logger.info("Dodanie wersji");
         makeCommit();
-        System.out.println("[ Wykonano commit ]");
-
+        logger.debug("Sprawdzanie hotfiksa");
         if(hotfix==true){
-            System.out.println("[ hotfix==true ]");
+            logger.trace("[ hotfix==true ]");
             File file = new File(directory+"/version.properties");
             String line = new String();
             Scanner sc = new Scanner(file);     //file to be scanne
             Boolean znaleziono = false;
             Vector<String> vector= new Vector<>();
-            System.out.println("[ Odczyt linii ]");
+            logger.trace("Odczyt linii");
             while (sc.hasNextLine() && znaleziono==false) {
                 line = sc.nextLine();
                 System.out.println(line);
@@ -83,40 +85,41 @@ public class Command {
                     Integer version = Integer.valueOf(line.substring(line.lastIndexOf('.')+1));
                     Integer old_year = Integer.valueOf(line.substring(line.indexOf('=')+1,line.indexOf(".")));
                     Integer old_month = Integer.valueOf(line.substring(line.indexOf('.')+1,line.lastIndexOf('.')));
-
-                    System.out.println("Ostatnia wersja: "+old_year+"-"+old_month+"-"+version);
-                    System.out.println(old_year+"-"+year);
+                    logger.debug("Ostatnia wersja: "+old_year+"-"+old_month+"-"+version);
+                    logger.debug(old_year+"-"+year);
                     if ((int)old_year!=(int)year){ // jeżeli różne lata to dodaj do wektora DD PRAWIDŁOWO, ALE
-                        System.out.println("[ Inny rok data ]");
+                        logger.trace("[ Inny rok data ]");
                         line="version="+year+"."+month+".0";
                     }else{
                     if(old_month!=month ){
-                        System.out.println("[ Inny miesiąc data ]");
+                       logger.trace("[ Inny miesiąc data ]");
                         line="version="+year+"."+month+".0";
                     }else{
-                        System.out.println("[ Stara data ]");
+                        logger.trace("[ Stara data ]");
                         line="version="+year+"."+month+"."+(++version);
                     }}
                 }
                 vector.add(line);
             }
             if(znaleziono==false){
+                logger.error("Wskazano błędny plik. Brak parametru version");
                 throw new IOException("Wskazano błędny plik. Brak parametru version");
             }
             sc.close();
             FileWriter bw = new FileWriter(file);
-            System.out.println("[Zapis do pliku]");
+            logger.debug("[Zapis do pliku]");
             for(int i=0; i< vector.size(); i++){
                 bw.write(vector.get(i));
-                System.out.println(vector.get(i));
+                logger.trace(vector.get(i));
             }
             bw.close();
             push();
+            logger.debug("Zamykanie plików i wykonanie pusha");
         }
     }
 
     public void push() throws IOException, GitAPIException {
-
+        logger.info("Push 1");
         FileRepositoryBuilder builder = new FileRepositoryBuilder();
         Repository repository = builder.setGitDir(new File(directory+"/.git")).readEnvironment().findGitDir().build();
         Git git = new Git(repository);
@@ -125,9 +128,10 @@ public class Command {
         PullCommand pc = git.pull();
         pc.call();
 
-
+        logger.info("Push 2");
         String[] commands = {"/bin/bash","-c","'cd "+directory,"; git push --force main main'"};
         String command = "/bin/bash -c 'cd "+directory+"; git push bazadanych bazadanych'";
+
 
         try {
             Process process = Runtime.getRuntime().exec(command);
