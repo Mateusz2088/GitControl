@@ -5,6 +5,8 @@ import GitControler.LogSpr;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 import org.eclipse.jgit.api.errors.GitAPIException;
+import org.slf4j.LoggerFactory;
+
 import java.io.IOException;
 
 

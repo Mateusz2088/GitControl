@@ -13,6 +13,7 @@ import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
 import org.eclipse.jgit.treewalk.TreeWalk;
 import org.eclipse.jgit.treewalk.filter.PathFilter;
 import org.eclipse.jgit.util.FileUtils;
+import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.util.Scanner;
