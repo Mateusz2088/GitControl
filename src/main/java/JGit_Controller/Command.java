@@ -1,7 +1,7 @@
 package JGit_Controller;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.eclipse.jgit.api.*;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.lib.*;
@@ -41,7 +41,7 @@ public class Command {
     public void makeCommit() throws IOException, GitAPIException {
         logger.info("Wykonywanie commita");
         Git git = Git.open(new File(directory+"/.git"));
-        git.add().addFilepattern(" . ").call();
+        git.add().addFilepattern(".").call();
         git.commit().setMessage("Initial commit").setCommitter("Mateusz","mateuszspzoo@gmail.com").call();
         logger.debug("Committed files to repository at " + git.getRepository().getDirectory());
     }
