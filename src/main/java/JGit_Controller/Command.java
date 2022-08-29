@@ -1,7 +1,7 @@
 package JGit_Controller;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.eclipse.jgit.api.*;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.lib.*;
@@ -23,7 +23,7 @@ import java.util.Vector;
 public class Command {
     private String directory;
     private String sshAddress;
-    private static final Logger logger = LogManager.getLogger(Command.class);
+    private static final Logger logger = Logger.getLogger(Command.class.getName());
     public void setDirectory(String directory) {
         this.directory = directory;
     }
@@ -44,13 +44,13 @@ public class Command {
         Git git = Git.open(new File(directory+"/.git"));
         git.add().addFilepattern(".").call();
         git.commit().setMessage("Initial commit").setCommitter("Mateusz","mateuszspzoo@gmail.com").call();
-        logger.debug("Committed files to repository at " + git.getRepository().getDirectory());
+        logger.info("Committed files to repository at " + git.getRepository().getDirectory());
     }
     public void makeChange(String new_branch) throws GitAPIException, IOException {
         logger.info("WYkonywanie zmiany brancha");
         makeCommit();
         Git git = Git.open(new File(directory+"/.git"));
-        logger.debug("Otwarto repozytorium");
+        logger.info("Otwarto repozytorium");
         Repository repository = git.getRepository();
         CreateBranchCommand bcc;
         bcc = git.branchCreate();
@@ -69,15 +69,15 @@ public class Command {
     public void makeversion(Boolean hotfix, Integer month, Integer year) throws GitAPIException, IOException {
         logger.info("Dodanie wersji");
         makeCommit();
-        logger.debug("Sprawdzanie hotfiksa");
+        logger.info("Sprawdzanie hotfiksa");
         if(hotfix==true){
-            logger.trace("[ hotfix==true ]");
+            logger.info("[ hotfix==true ]");
             File file = new File(directory+"/version.properties");
             String line = new String();
             Scanner sc = new Scanner(file);     //file to be scanne
             Boolean znaleziono = false;
             Vector<String> vector= new Vector<>();
-            logger.trace("Odczyt linii");
+            logger.info("Odczyt linii");
             while (sc.hasNextLine() && znaleziono==false) {
                 line = sc.nextLine();
                 System.out.println(line);
@@ -86,36 +86,36 @@ public class Command {
                     Integer version = Integer.valueOf(line.substring(line.lastIndexOf('.')+1));
                     Integer old_year = Integer.valueOf(line.substring(line.indexOf('=')+1,line.indexOf(".")));
                     Integer old_month = Integer.valueOf(line.substring(line.indexOf('.')+1,line.lastIndexOf('.')));
-                    logger.debug("Ostatnia wersja: "+old_year+"-"+old_month+"-"+version);
-                    logger.debug(old_year+"-"+year);
+                    logger.info("Ostatnia wersja: "+old_year+"-"+old_month+"-"+version);
+                    logger.info(old_year+"-"+year);
                     if ((int)old_year!=(int)year){ // jeżeli różne lata to dodaj do wektora DD PRAWIDŁOWO, ALE
-                        logger.trace("[ Inny rok data ]");
+                        logger.log(Level.INFO ,"[ Inny rok data ]");
                         line="version="+year+"."+month+".0";
                     }else{
                     if(old_month!=month ){
-                       logger.trace("[ Inny miesiąc data ]");
+                       logger.info("[ Inny miesiąc data ]");
                         line="version="+year+"."+month+".0";
                     }else{
-                        logger.trace("[ Stara data ]");
+                        logger.info("[ Stara data ]");
                         line="version="+year+"."+month+"."+(++version);
                     }}
                 }
                 vector.add(line);
             }
             if(znaleziono==false){
-                logger.error("Wskazano błędny plik. Brak parametru version");
+                logger.warning("Wskazano błędny plik. Brak parametru version");
                 throw new IOException("Wskazano błędny plik. Brak parametru version");
             }
             sc.close();
             FileWriter bw = new FileWriter(file);
-            logger.debug("[Zapis do pliku]");
+            logger.info("[Zapis do pliku]");
             for(int i=0; i< vector.size(); i++){
                 bw.write(vector.get(i));
-                logger.trace(vector.get(i));
+                logger.info(vector.get(i));
             }
             bw.close();
             push();
-            logger.debug("Zamykanie plików i wykonanie pusha");
+            logger.info("Zamykanie plików i wykonanie pusha");
         }
     }
 

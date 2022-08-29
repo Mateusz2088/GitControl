@@ -1,0 +1,524 @@
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, create new FileSnapshot: lastRead=2022-08-26 11:39:09.103811795, lastModified=2022-08-09 10:53:59.313406447, size=361, fileKey=(dev=805,ino=21109567)
+file=null, size changed from -1 to 383 bytes
+loading config FileBasedConfig[/home/mati/.config/jgit/config]
+file=/home/mati/.config/jgit/config, create new FileSnapshot: lastRead=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, size=383, fileKey=(dev=805,ino=8666271)
+readpipe [/usr/bin/git, --version],/usr/bin
+readpipe may return 'git version 2.25.1'
+remaining output:
+
+readpipe [/usr/bin/git, config, --system, --show-origin, --list, -z],/usr/bin
+readpipe may return 'null'
+remaining output:
+
+readpipe rc=128
+Exception caught during execution of command '[/usr/bin/git, config, --system, --show-origin, --list, -z]' in '/usr/bin', return code '128', error message 'fatal: nie moÅ¼na odczytaÄ pliku ustawieÅ â/etc/gitconfigâ: Nie ma takiego pliku ani katalogu
+'
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=null, size changed from -1 to 112 bytes
+loading config FileBasedConfig[/home/mati/.gitconfig]
+file=/home/mati/.gitconfig, create new FileSnapshot: lastRead=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, size=112, fileKey=(dev=805,ino=8669533)
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, create new FileSnapshot: lastRead=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, size=361, fileKey=(dev=805,ino=21109567)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/index, create new FileSnapshot: lastRead=2022-08-26 11:39:09.545458210, lastModified=2022-08-26 11:38:05.065332448, size=280, fileKey=(dev=805,ino=21109577)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/index, create new FileSnapshot: lastRead=2022-08-26 11:39:09.651382506, lastModified=2022-08-26 11:38:05.065332448, size=280, fileKey=(dev=805,ino=21109577)
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/index, create new FileSnapshot: lastRead=2022-08-26 11:39:09.654426098, lastModified=2022-08-26 11:38:05.065332448, size=280, fileKey=(dev=805,ino=21109577)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, create new FileSnapshot: lastRead=2022-08-26 11:39:09.720032328, lastModified=2022-08-05 16:09:26.219949528, size=96, fileKey=(dev=805,ino=21258488)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.720032328, lastModified=2022-08-05 16:09:26.219949528, delta=1798183500082800 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/index, create new FileSnapshot: lastRead=2022-08-26 11:39:09.723711670, lastModified=2022-08-22 15:01:11.425169329, size=32, fileKey=(dev=805,ino=21261532)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.720032328, lastModified=2022-08-05 16:09:26.219949528, delta=1798183500082800 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/HEAD, create new FileSnapshot: lastRead=2022-08-26 11:39:09.765777298, lastModified=2022-08-05 16:09:26.203949347, size=23, fileKey=(dev=805,ino=21258487)
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/refs/heads/master, create new FileSnapshot: lastRead=2022-08-26 11:39:09.769699021, lastModified=2022-08-22 15:01:11.633171662, size=41, fileKey=(dev=805,ino=21261537)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.720032328, lastModified=2022-08-05 16:09:26.219949528, delta=1798183500082800 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/HEAD, isRacyClean=false, read=2022-08-26 11:39:09.765777298, lastModified=2022-08-05 16:09:26.203949347, delta=1798183561827951 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/HEAD, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/refs/heads/master, isRacyClean=false, read=2022-08-26 11:39:09.769699021, lastModified=2022-08-22 15:01:11.633171662, delta=333478136527359 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/refs/heads/master, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=null, size changed from -1 to 4096 bytes
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, create new FileSnapshot: lastRead=2022-08-26 11:39:09.829257509, lastModified=2022-08-09 10:29:50.253034885, size=4096, fileKey=(dev=805,ino=21109570)
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, isRacyClean=false, read=2022-08-26 11:39:09.829257509, lastModified=2022-08-09 10:29:50.253034885, delta=1472959576222624 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, isRacyClean=false, read=2022-08-26 11:39:09.829257509, lastModified=2022-08-09 10:29:50.253034885, delta=1472959576222624 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/index.lock, create new FileSnapshot: lastRead=2022-08-26 11:39:09.835828360, lastModified=2022-08-26 11:39:09.641885824, size=0, fileKey=(dev=805,ino=21109775)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, create new FileSnapshot: lastRead=2022-08-26 11:39:09.847344470, lastModified=2022-08-05 16:09:26.219949528, size=96, fileKey=(dev=805,ino=21258488)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.847344470, lastModified=2022-08-05 16:09:26.219949528, delta=1798183627394942 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/index, create new FileSnapshot: lastRead=2022-08-26 11:39:09.850823093, lastModified=2022-08-22 15:01:11.425169329, size=32, fileKey=(dev=805,ino=21261532)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.847344470, lastModified=2022-08-05 16:09:26.219949528, delta=1798183627394942 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/HEAD, create new FileSnapshot: lastRead=2022-08-26 11:39:09.853264221, lastModified=2022-08-05 16:09:26.203949347, size=23, fileKey=(dev=805,ino=21258487)
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/refs/heads/master, create new FileSnapshot: lastRead=2022-08-26 11:39:09.853928424, lastModified=2022-08-22 15:01:11.633171662, size=41, fileKey=(dev=805,ino=21261537)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.847344470, lastModified=2022-08-05 16:09:26.219949528, delta=1798183627394942 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/HEAD, isRacyClean=false, read=2022-08-26 11:39:09.853264221, lastModified=2022-08-05 16:09:26.203949347, delta=1798183649314874 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/HEAD, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/refs/heads/master, isRacyClean=false, read=2022-08-26 11:39:09.853928424, lastModified=2022-08-22 15:01:11.633171662, delta=333478220756762 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/refs/heads/master, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/index.lock, create new FileSnapshot: lastRead=2022-08-26 11:39:09.858509323, lastModified=2022-08-26 11:39:09.853887639, size=280, fileKey=(dev=805,ino=21109775)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/HEAD, create new FileSnapshot: lastRead=2022-08-26 11:39:09.894702318, lastModified=2022-08-09 10:53:55.937371616, size=21, fileKey=(dev=805,ino=21109583)
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/refs/heads/main, create new FileSnapshot: lastRead=2022-08-26 11:39:09.895195012, lastModified=2022-08-26 11:38:05.205333649, size=41, fileKey=(dev=805,ino=21109779)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/HEAD, isRacyClean=false, read=2022-08-26 11:39:09.894702318, lastModified=2022-08-09 10:53:55.937371616, delta=1471513957330702 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/HEAD, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/refs/heads/main, isRacyClean=false, read=2022-08-26 11:39:09.895195012, lastModified=2022-08-26 11:38:05.205333649, delta=64689861363 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/refs/heads/main, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, isRacyClean=false, read=2022-08-26 11:39:09.829257509, lastModified=2022-08-09 10:29:50.253034885, delta=1472959576222624 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/index, create new FileSnapshot: lastRead=2022-08-26 11:39:09.917406596, lastModified=2022-08-26 11:39:09.853887639, size=280, fileKey=(dev=805,ino=21109775)
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/index, create new FileSnapshot: lastRead=2022-08-26 11:39:09.918232291, lastModified=2022-08-26 11:39:09.853887639, size=280, fileKey=(dev=805,ino=21109775)
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, isRacyClean=false, read=2022-08-26 11:39:09.829257509, lastModified=2022-08-09 10:29:50.253034885, delta=1472959576222624 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, isRacyClean=false, read=2022-08-26 11:39:09.829257509, lastModified=2022-08-09 10:29:50.253034885, delta=1472959576222624 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, is unmodified
+file=null, size changed from -1 to 0 bytes
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack/preserved, isRacyClean=false, read=2022-08-26 11:39:09.923518351, lastModified=1970-01-01 01:00:00.000000000, delta=1661506749923518351 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack/preserved, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, isRacyClean=false, read=2022-08-26 11:39:09.829257509, lastModified=2022-08-09 10:29:50.253034885, delta=1472959576222624 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack/preserved, isRacyClean=false, read=2022-08-26 11:39:09.923518351, lastModified=1970-01-01 01:00:00.000000000, delta=1661506749923518351 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack/preserved, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/HEAD, isRacyClean=false, read=2022-08-26 11:39:09.894702318, lastModified=2022-08-09 10:53:55.937371616, delta=1471513957330702 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/HEAD, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/refs/heads/main, isRacyClean=false, read=2022-08-26 11:39:09.895195012, lastModified=2022-08-26 11:38:05.205333649, delta=64689861363 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/refs/heads/main, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/refs/heads/main, isRacyClean=false, read=2022-08-26 11:39:09.895195012, lastModified=2022-08-26 11:38:05.205333649, delta=64689861363 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/refs/heads/main, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/refs/heads/main.lock, create new FileSnapshot: lastRead=2022-08-26 11:39:09.955171406, lastModified=2022-08-26 11:39:09.937888358, size=41, fileKey=(dev=805,ino=21109823)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:39:09.131318770, lastModified=2022-08-23 22:30:26.954413520, delta=220122176905250 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:39:09.456076488, lastModified=2022-02-27 21:18:24.637111343, delta=15513644818965145 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:39:09.457582631, lastModified=2022-08-09 10:53:59.313406447, delta=1471510144176184 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, create new FileSnapshot: lastRead=2022-08-26 11:47:59.238298214, lastModified=2022-08-09 10:53:59.313406447, size=361, fileKey=(dev=805,ino=21109567)
+file=null, size changed from -1 to 383 bytes
+loading config FileBasedConfig[/home/mati/.config/jgit/config]
+file=/home/mati/.config/jgit/config, create new FileSnapshot: lastRead=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, size=383, fileKey=(dev=805,ino=8666271)
+readpipe [/usr/bin/git, --version],/usr/bin
+readpipe may return 'git version 2.25.1'
+remaining output:
+
+readpipe [/usr/bin/git, config, --system, --show-origin, --list, -z],/usr/bin
+readpipe may return 'null'
+remaining output:
+
+readpipe rc=128
+Exception caught during execution of command '[/usr/bin/git, config, --system, --show-origin, --list, -z]' in '/usr/bin', return code '128', error message 'fatal: nie moÅ¼na odczytaÄ pliku ustawieÅ â/etc/gitconfigâ: Nie ma takiego pliku ani katalogu
+'
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=null, size changed from -1 to 112 bytes
+loading config FileBasedConfig[/home/mati/.gitconfig]
+file=/home/mati/.gitconfig, create new FileSnapshot: lastRead=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, size=112, fileKey=(dev=805,ino=8669533)
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, create new FileSnapshot: lastRead=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, size=361, fileKey=(dev=805,ino=21109567)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/index, create new FileSnapshot: lastRead=2022-08-26 11:47:59.706059134, lastModified=2022-08-26 11:39:09.853887639, size=280, fileKey=(dev=805,ino=21109775)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/index, create new FileSnapshot: lastRead=2022-08-26 11:47:59.836151939, lastModified=2022-08-26 11:39:09.853887639, size=280, fileKey=(dev=805,ino=21109775)
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/index, create new FileSnapshot: lastRead=2022-08-26 11:47:59.839445344, lastModified=2022-08-26 11:39:09.853887639, size=280, fileKey=(dev=805,ino=21109775)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, create new FileSnapshot: lastRead=2022-08-26 11:47:59.921709265, lastModified=2022-08-05 16:09:26.219949528, size=96, fileKey=(dev=805,ino=21258488)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.921709265, lastModified=2022-08-05 16:09:26.219949528, delta=1798713701759737 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/index, create new FileSnapshot: lastRead=2022-08-26 11:47:59.927327399, lastModified=2022-08-22 15:01:11.425169329, size=32, fileKey=(dev=805,ino=21261532)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.921709265, lastModified=2022-08-05 16:09:26.219949528, delta=1798713701759737 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/HEAD, create new FileSnapshot: lastRead=2022-08-26 11:47:59.989138255, lastModified=2022-08-05 16:09:26.203949347, size=23, fileKey=(dev=805,ino=21258487)
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/refs/heads/master, create new FileSnapshot: lastRead=2022-08-26 11:47:59.995300118, lastModified=2022-08-22 15:01:11.633171662, size=41, fileKey=(dev=805,ino=21261537)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.921709265, lastModified=2022-08-05 16:09:26.219949528, delta=1798713701759737 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/HEAD, isRacyClean=false, read=2022-08-26 11:47:59.989138255, lastModified=2022-08-05 16:09:26.203949347, delta=1798713785188908 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/HEAD, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/refs/heads/master, isRacyClean=false, read=2022-08-26 11:47:59.995300118, lastModified=2022-08-22 15:01:11.633171662, delta=334008362128456 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/refs/heads/master, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=null, size changed from -1 to 4096 bytes
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, create new FileSnapshot: lastRead=2022-08-26 11:48:00.100418305, lastModified=2022-08-09 10:29:50.253034885, size=4096, fileKey=(dev=805,ino=21109570)
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, isRacyClean=false, read=2022-08-26 11:48:00.100418305, lastModified=2022-08-09 10:29:50.253034885, delta=1473489847383420 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, isRacyClean=false, read=2022-08-26 11:48:00.100418305, lastModified=2022-08-09 10:29:50.253034885, delta=1473489847383420 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/index.lock, create new FileSnapshot: lastRead=2022-08-26 11:48:00.113175163, lastModified=2022-08-26 11:47:59.826381946, size=0, fileKey=(dev=805,ino=21109779)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, create new FileSnapshot: lastRead=2022-08-26 11:48:00.133234813, lastModified=2022-08-05 16:09:26.219949528, size=96, fileKey=(dev=805,ino=21258488)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, isRacyClean=false, read=2022-08-26 11:48:00.133234813, lastModified=2022-08-05 16:09:26.219949528, delta=1798713913285285 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/index, create new FileSnapshot: lastRead=2022-08-26 11:48:00.144365861, lastModified=2022-08-22 15:01:11.425169329, size=32, fileKey=(dev=805,ino=21261532)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, isRacyClean=false, read=2022-08-26 11:48:00.133234813, lastModified=2022-08-05 16:09:26.219949528, delta=1798713913285285 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/HEAD, create new FileSnapshot: lastRead=2022-08-26 11:48:00.147868629, lastModified=2022-08-05 16:09:26.203949347, size=23, fileKey=(dev=805,ino=21258487)
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/refs/heads/master, create new FileSnapshot: lastRead=2022-08-26 11:48:00.148905956, lastModified=2022-08-22 15:01:11.633171662, size=41, fileKey=(dev=805,ino=21261537)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, isRacyClean=false, read=2022-08-26 11:48:00.133234813, lastModified=2022-08-05 16:09:26.219949528, delta=1798713913285285 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/HEAD, isRacyClean=false, read=2022-08-26 11:48:00.147868629, lastModified=2022-08-05 16:09:26.203949347, delta=1798713943919282 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/HEAD, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/refs/heads/master, isRacyClean=false, read=2022-08-26 11:48:00.148905956, lastModified=2022-08-22 15:01:11.633171662, delta=334008515734294 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/JGitTestREposistory542474467175853283/.git/refs/heads/master, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/index.lock, create new FileSnapshot: lastRead=2022-08-26 11:48:00.160964378, lastModified=2022-08-26 11:48:00.158384736, size=280, fileKey=(dev=805,ino=21109779)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/HEAD, create new FileSnapshot: lastRead=2022-08-26 11:48:00.227496362, lastModified=2022-08-09 10:53:55.937371616, size=21, fileKey=(dev=805,ino=21109583)
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/refs/heads/main, create new FileSnapshot: lastRead=2022-08-26 11:48:00.228522740, lastModified=2022-08-26 11:39:09.937888358, size=41, fileKey=(dev=805,ino=21109823)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/HEAD, isRacyClean=false, read=2022-08-26 11:48:00.227496362, lastModified=2022-08-09 10:53:55.937371616, delta=1472044290124746 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/HEAD, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/refs/heads/main, isRacyClean=false, read=2022-08-26 11:48:00.228522740, lastModified=2022-08-26 11:39:09.937888358, delta=530290634382 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/refs/heads/main, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, isRacyClean=false, read=2022-08-26 11:48:00.100418305, lastModified=2022-08-09 10:29:50.253034885, delta=1473489847383420 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/index, create new FileSnapshot: lastRead=2022-08-26 11:48:00.265032282, lastModified=2022-08-26 11:48:00.158384736, size=280, fileKey=(dev=805,ino=21109779)
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/index, create new FileSnapshot: lastRead=2022-08-26 11:48:00.268460562, lastModified=2022-08-26 11:48:00.158384736, size=280, fileKey=(dev=805,ino=21109779)
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, isRacyClean=false, read=2022-08-26 11:48:00.100418305, lastModified=2022-08-09 10:29:50.253034885, delta=1473489847383420 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, isRacyClean=false, read=2022-08-26 11:48:00.100418305, lastModified=2022-08-09 10:29:50.253034885, delta=1473489847383420 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, is unmodified
+file=null, size changed from -1 to 0 bytes
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack/preserved, isRacyClean=false, read=2022-08-26 11:48:00.332640832, lastModified=1970-01-01 01:00:00.000000000, delta=1661507280332640832 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack/preserved, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, isRacyClean=false, read=2022-08-26 11:48:00.100418305, lastModified=2022-08-09 10:29:50.253034885, delta=1473489847383420 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack/preserved, isRacyClean=false, read=2022-08-26 11:48:00.332640832, lastModified=1970-01-01 01:00:00.000000000, delta=1661507280332640832 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/objects/pack/preserved, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/HEAD, isRacyClean=false, read=2022-08-26 11:48:00.227496362, lastModified=2022-08-09 10:53:55.937371616, delta=1472044290124746 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/HEAD, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/refs/heads/main, isRacyClean=false, read=2022-08-26 11:48:00.228522740, lastModified=2022-08-26 11:39:09.937888358, delta=530290634382 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/refs/heads/main, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/refs/heads/main, isRacyClean=false, read=2022-08-26 11:48:00.228522740, lastModified=2022-08-26 11:39:09.937888358, delta=530290634382 ns, racy<=17622500 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/refs/heads/main, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/refs/heads/main.lock, create new FileSnapshot: lastRead=2022-08-26 11:48:00.378006252, lastModified=2022-08-26 11:48:00.354386383, size=41, fileKey=(dev=805,ino=21109837)
+file=/home/mati/.config/jgit/config, isRacyClean=false, read=2022-08-26 11:47:59.269063470, lastModified=2022-08-23 22:30:26.954413520, delta=220652314649950 ns, racy<=2500000000 ns
+file=/home/mati/.config/jgit/config, is unmodified
+file=/home/mati/.gitconfig, isRacyClean=false, read=2022-08-26 11:47:59.603982370, lastModified=2022-02-27 21:18:24.637111343, delta=15514174966871027 ns, racy<=2500000000 ns
+file=/home/mati/.gitconfig, is unmodified
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, isRacyClean=false, read=2022-08-26 11:47:59.606049538, lastModified=2022-08-09 10:53:59.313406447, delta=1472040292643091 ns, racy<=2500000000 ns
+file=/home/mati/Dokumenty/praktykaTT/GITtest/.git/config, is unmodified
